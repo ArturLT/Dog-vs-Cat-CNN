@@ -1,0 +1,13 @@
+Usar uma Rede Neuronal Mais Complexa (Deep CNN): Tente usar uma arquitetura mais complexa (como VGG16 ou ResNet) para capturar mais padrões nas imagens. Mas isso vai precisar de mais tempo para treinar e mais poder de processamento.
+
+Transfer Learning (Aprendizado por Transferência): Use um modelo pré-treinado (como VGG16, ResNet) e ajuste ele para o seu caso. Isso ajuda porque esses modelos já sabem reconhecer padrões em imagens e você só precisa adaptá-los ao seu problema.
+
+Aumento de Dados: Faça mais variações nas imagens (como rotação, espelhamento) para o modelo aprender com mais exemplos. Isso ajuda muito quando você tem um conjunto de dados pequeno.
+
+Dropout e Batch Normalization: Tente usar técnicas para evitar que o modelo "decore" os dados (overfitting), como dropout ou batch normalization. Isso pode ajudar a melhorar a precisão.
+
+Ajuste de Hiperparâmetros: Experimente alterar a taxa de aprendizado ou o número de camadas do modelo para ver se melhora o desempenho.
+
+Mais Dados de Treinamento: Se possível, colete mais imagens para treinar, o que pode aumentar a precisão do modelo.
+
+Verificação de Erros nas Imagens: Se algumas imagens não estiverem sendo lidas corretamente (como arquivos corrompidos), é bom corrigir isso para evitar que o modelo seja treinado com dados ruins.
