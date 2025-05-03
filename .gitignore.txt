@@ -15,3 +15,8 @@ env/
 
 # Ignorar pastas de datasets (se os dados forem grandes)
 dataset/
+
+Identificador.ipynb
+
+*.ipynb_checkpoints/
+*.ipynb
